@@ -1,1 +1,21 @@
-# EXT-Welcome
+# EXT-Welcome - Extented for `MMM-GoogleAssistant` v4.x
+
+EXT-Welcome is a module for the [MagicMirror](https://github.com/MichMich/MagicMirror) project by [Michael Teeuw](https://github.com/MichMich).
+This module is an Extented for `MMM-GoogleAssistant` v4.x
+
+It allows to have a welcome on start of `MagicMirror` with `MMM-GoogleAssistant`
+
+## Installation / update / configuration
+
+Read the docs in [wiki](https://wiki.bugsounet.fr/EXT-NewPIR)
+
+## Support and Helping
+New forum and support for all @bugsounet modules is now localized [there](https://forum.bugsounet.fr) !
+ 
+## Donate
+ [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TTHRH94Y4KL36&source=url), if you love this module !
+
+## Change Logs
+
+### 2022-02-08
+   -- first release
