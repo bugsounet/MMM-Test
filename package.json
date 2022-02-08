@@ -1,8 +1,8 @@
 {
   "name": "EXT-Welcome",
-  "version": "0.0.1",
-  "rev": "develop",
-  "description": "MMM-Google Assistant Extented",
+  "version": "1.0.0",
+  "rev": "220208",
+  "description": "MMM-GoogleAssistant Extented Send Welcome on start",
   "main": "EXT-Welcome.js",
   "scripts": {
     "preinstall": "installer/preinstall.sh",
@@ -17,11 +17,11 @@
   "author": "bugsounet",
   "license": "MIT",
   "bugs": {
-    "url": "http://forum.bugsounet.fr"
+    "url": "https://forum.bugsounet.fr"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/bugsounet/EXT-Welcomee"
   },
-  "homepage": "http://wiki.bugsounet.fr/en/EXT-Welcome"
+  "homepage": "https://wiki.bugsounet.fr/en/EXT-Welcome"
 }
