@@ -1,8 +1,8 @@
 /**
  ** Module : EXT-Welcome
  ** @bugsounet
- ** ©01-2022
- ** support: http://forum.bugsounet.fr
+ ** ©02-2022
+ ** support: https://forum.bugsounet.fr
  **/
 
 Module.register("EXT-Welcome", {
@@ -20,6 +20,7 @@ Module.register("EXT-Welcome", {
     switch(noti) {
       case "DOM_OBJECTS_CREATED":
         this.sendSocketNotification("INIT")
+        this.sendNotification("EXT_HELLO", this.name)
         break
       case "GA_READY":
         this.sendNotification("GA_ACTIVATE",{type: "TEXT", key: this.config.welcome, chime: false})
