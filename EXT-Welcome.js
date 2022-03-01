@@ -16,14 +16,16 @@ Module.register("EXT-Welcome", {
     return dom
   },
 
-  notificationReceived: function(noti, payload) {
+  notificationReceived: function(noti, payload,sender) {
     switch(noti) {
       case "DOM_OBJECTS_CREATED":
         this.sendSocketNotification("INIT")
-        this.sendNotification("EXT_HELLO", this.name)
         break
       case "GA_READY":
-        this.sendNotification("GA_ACTIVATE",{type: "TEXT", key: this.config.welcome, chime: false})
+        if (sender.name == "MMM-GoogleAssistant") {
+          this.sendNotification("EXT_HELLO", this.name)
+          this.sendNotification("GA_ACTIVATE",{type: "TEXT", key: this.config.welcome, chime: false})
+        }
         break
     }
   }
