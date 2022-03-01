@@ -21,7 +21,7 @@ Module.register("EXT-Welcome", {
       case "DOM_OBJECTS_CREATED":
         this.sendSocketNotification("INIT")
         break
-      case "GA_READY":
+      case "GAv4_READY":
         if (sender.name == "MMM-GoogleAssistant") {
           this.sendNotification("EXT_HELLO", this.name)
           this.sendNotification("GA_ACTIVATE",{type: "TEXT", key: this.config.welcome, chime: false})
