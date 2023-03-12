@@ -1,7 +1,7 @@
 {
   "name": "EXT-Welcome",
-  "version": "1.0.0",
-  "rev": "220301",
+  "version": "1.0.1",
+  "rev": "230312",
   "description": "MMM-GoogleAssistant Extented Send Welcome on start",
   "main": "EXT-Welcome.js",
   "scripts": {
