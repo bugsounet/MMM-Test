@@ -11,9 +11,6 @@
   },
   "author": "bugsounet",
   "license": "MIT",
-  "bugs": {
-    "url": "https://forum.bugsounet.fr"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/bugsounet/MMM-Test"
