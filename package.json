@@ -1,20 +1,14 @@
 {
-  "name": "EXT-Welcome",
-  "version": "1.0.1",
-  "rev": "230312",
-  "description": "MMM-GoogleAssistant Extented Send Welcome on start",
-  "main": "EXT-Welcome.js",
+  "name": "MMM-Test",
+  "version": "1.0.0",
+  "rev": "230300",
+  "description": "Test module",
+  "main": "MMM-Test.js",
   "scripts": {
     "preinstall": "installer/preinstall.sh",
     "postinstall": "installer/postinstall.sh",
     "update": "installer/update.sh"
   },
-  "keywords": [
-    "magic mirror",
-    "module",
-    "notification",
-    "warning"
-  ],
   "author": "bugsounet",
   "license": "MIT",
   "bugs": {
@@ -22,7 +16,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bugsounet/EXT-Welcomee"
-  },
-  "homepage": "https://wiki.bugsounet.fr/en/EXT-Welcome"
+    "url": "https://github.com/bugsounet/MMM-Test"
+  }
 }

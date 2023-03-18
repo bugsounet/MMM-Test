@@ -5,9 +5,9 @@
  ** support: https://forum.bugsounet.fr
  **/
 
-Module.register("EXT-Welcome", {
+Module.register("MMM-Test", {
   defaults: {
-    welcome: "brief Today"
+    debug: true
   },
 
   getDom: function() {
@@ -20,12 +20,6 @@ Module.register("EXT-Welcome", {
     switch(noti) {
       case "DOM_OBJECTS_CREATED":
         this.sendSocketNotification("INIT")
-        break
-      case "GAv5_READY":
-        if (sender.name == "MMM-GoogleAssistant") {
-          this.sendNotification("EXT_HELLO", this.name)
-          this.sendNotification("GA_ACTIVATE",{type: "TEXT", key: this.config.welcome, chime: false})
-        }
         break
     }
   }
