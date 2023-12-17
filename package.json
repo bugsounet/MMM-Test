@@ -14,5 +14,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/bugsounet/MMM-Test"
+  },
+  "dependencies": {
+    "css-hell": "^1.0.0"
   }
 }
