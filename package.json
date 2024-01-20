@@ -14,5 +14,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/bugsounet/MMM-Test"
+  },
+  "dependencies": {
+    "scrypted": "^1.3.5"
   }
 }
